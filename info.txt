@@ -1,0 +1,28 @@
+Endpoint URL
+https://retoolapi.dev/Xxxjnd/data
+
+HTTP method endpoints
+
+GET
+/Xxxjnd/data
+
+GET filter
+/Xxxjnd/data?nombre=value
+
+GET by id
+/Xxxjnd/data/1
+
+GET paginate
+/Xxxjnd/data?_page=2&_limit=10
+
+POST
+/Xxxjnd/data
+
+PUT
+/Xxxjnd/data/1
+
+PATCH
+/Xxxjnd/data/1
+
+DELETE
+/Xxxjnd/data/1
