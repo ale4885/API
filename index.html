@@ -47,7 +47,6 @@
         </div>
     </main>
     <!--modal para agregar integrantes-->
-
     <dialog id="modal-agregar">
         <article>
             <header>
@@ -62,7 +61,25 @@
                 <button type="submit" class="contrast">Guardar</button>
             </form>
         </article>
+    </dialog>
 
+
+    <!--Modal para editar-->
+    <dialog id="modal-editar">
+        <article>
+            <header>
+                <a href="#" class="close" id="btnCerrarEditar"></a>
+                <h3>Editar Integrantes</h3>
+            </header>
+            <form id="frmEditar">
+                <input type="hidden" id="idEditar"> <!--ID del registro por editar-->
+                <input type="text" id="nombreEditar" placeholder="Nombre" required>
+                <input type="text" id="apellidoEditar" placeholder="Apellido" required>
+                <input type="email" id="emailEditar" placeholder="Correo electronico" required>
+                <input type="edad" placeholder="Edad" id="edadEditar" required>
+                <button type="submit" class="contrast">Guardar</button>
+            </form>
+        </article>
     </dialog>
 
 
